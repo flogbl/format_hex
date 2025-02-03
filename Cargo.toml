@@ -1,0 +1,9 @@
+[package]
+name = "format_hex"
+version = "0.1.0"
+edition = "2021"
+description = "Format an [u8] to a multi-line hexadecimal representation"
+repository = "https://github.com/flogbl/format_hex"
+license = "MIT"
+exclude = [".gitignore"]
+[dependencies]
