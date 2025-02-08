@@ -1,4 +1,5 @@
-///! Format a [u8] to a hexadecimal readable format :
+///! **format_hex** formats an [u8] to an hexadecimal multiline format, for humain  readability.
+///!
 ///! ```
 ///! let (l1, l2, l3) = FormatHex::new()
 ///!    .push_hex(b"ABC")
