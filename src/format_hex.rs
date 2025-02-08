@@ -30,7 +30,7 @@ impl FormatHex {
     /// Push comment (display points in the hexadecimal part)
     pub fn push_comment(&mut self, txt: &str) -> &mut Self {
         self.char_l.push_str(txt);
-        let fill = unsafe { String::from_utf8_unchecked(vec![b'.'; txt.len()]) };
+        let fill = ".".repeat(txt.len());
         self.hex_l1.push_str(&fill);
         self.hex_l2.push_str(&fill);
         self
