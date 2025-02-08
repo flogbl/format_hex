@@ -1,4 +1,4 @@
-**format_hex** format an [u8] to an hexadecimal multiline format, for human readability.
+**format_hex** formats an [u8] to an hexadecimal multiline format, for human readability.
 ```rust
 let (l1, l2, l3) = FormatHex::new()
   .push_hex(b"ABC")
