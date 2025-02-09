@@ -1,6 +1,6 @@
 [package]
 name = "format_hex"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "Formats an [u8] to an hexadecimal multiline format, for human readability"
 repository = "https://github.com/flogbl/format_hex"
